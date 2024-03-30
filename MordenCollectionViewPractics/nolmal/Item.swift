@@ -20,6 +20,6 @@ enum Item: Hashable {
 // 모델
 struct HomeItem: Hashable {
     let text: String
-    let subtitle: String?
+    let subtitle: String? = "" 
     let imageUrl: String
 }

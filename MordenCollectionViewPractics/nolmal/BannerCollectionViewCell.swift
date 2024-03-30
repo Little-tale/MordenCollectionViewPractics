@@ -17,10 +17,6 @@ class BannerCollectionViewCell: UICollectionViewCell {
         super.init(frame: frame)
         setUI()
     }
-    required init?(coder: NSCoder) {
-        fatalError("init(coder:) has not been implemented")
-    }
-    
     
     private func setUI(){
         contentView.addSubview(titleLabel)
@@ -37,8 +33,12 @@ class BannerCollectionViewCell: UICollectionViewCell {
     
   
     private func config(title: String, imageUrl: String){
+        titleLabel.text = "Title"
         
     }
     
+    required init?(coder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
+    }
 }
 
