@@ -7,6 +7,7 @@
 
 import UIKit
 import SnapKit
+import Kingfisher
 
 class BannerCollectionViewCell: UICollectionViewCell {
     
@@ -16,11 +17,12 @@ class BannerCollectionViewCell: UICollectionViewCell {
     override init(frame: CGRect) {
         super.init(frame: frame)
         setUI()
+        designView()
     }
     
     private func setUI(){
-        contentView.addSubview(titleLabel)
         contentView.addSubview(backgroundInage)
+        contentView.addSubview(titleLabel)
         
         titleLabel.snp.makeConstraints { make in
             make.center.equalToSuperview()
@@ -32,9 +34,13 @@ class BannerCollectionViewCell: UICollectionViewCell {
     }
     
   
-    private func config(title: String, imageUrl: String){
-        titleLabel.text = "Title"
-        
+    func config(title: String, imageUrl: String){
+        titleLabel.text = title
+        let url = URL(string: imageUrl)
+        backgroundInage.kf.setImage(with: url)
+    }
+    func designView(){
+        titleLabel.font = .systemFont(ofSize: 30, weight: .heavy)
     }
     
     required init?(coder: NSCoder) {

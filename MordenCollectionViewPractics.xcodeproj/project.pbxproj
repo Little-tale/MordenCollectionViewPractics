@@ -23,6 +23,7 @@
 		7BF2E7C22BB48D0500E83EC1 /* BannerCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF2E7C12BB48D0500E83EC1 /* BannerCollectionViewCell.swift */; };
 		7BF2E7C42BB48D3000E83EC1 /* Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF2E7C32BB48D3000E83EC1 /* Extention.swift */; };
 		7BF2E7C72BB48E1600E83EC1 /* Then in Frameworks */ = {isa = PBXBuildFile; productRef = 7BF2E7C62BB48E1600E83EC1 /* Then */; };
+		7BF2E7F12BB7D46C00E83EC1 /* NormalCarosellColletionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF2E7F02BB7D46B00E83EC1 /* NormalCarosellColletionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		7BF2E7BF2BB48C9500E83EC1 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		7BF2E7C12BB48D0500E83EC1 /* BannerCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerCollectionViewCell.swift; sourceTree = "<group>"; };
 		7BF2E7C32BB48D3000E83EC1 /* Extention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extention.swift; sourceTree = "<group>"; };
+		7BF2E7F02BB7D46B00E83EC1 /* NormalCarosellColletionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NormalCarosellColletionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,6 +132,7 @@
 			children = (
 				7BF2E7BF2BB48C9500E83EC1 /* Item.swift */,
 				7BF2E7C12BB48D0500E83EC1 /* BannerCollectionViewCell.swift */,
+				7BF2E7F02BB7D46B00E83EC1 /* NormalCarosellColletionViewCell.swift */,
 			);
 			path = nolmal;
 			sourceTree = "<group>";
@@ -286,6 +289,7 @@
 				7BF2E7B02BB48AC900E83EC1 /* NormerViewController.swift in Sources */,
 				7BF2E7C22BB48D0500E83EC1 /* BannerCollectionViewCell.swift in Sources */,
 				7BF2E7C42BB48D3000E83EC1 /* Extention.swift in Sources */,
+				7BF2E7F12BB7D46C00E83EC1 /* NormalCarosellColletionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

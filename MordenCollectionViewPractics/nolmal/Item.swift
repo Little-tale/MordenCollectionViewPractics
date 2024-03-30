@@ -20,6 +20,13 @@ enum Item: Hashable {
 // 모델
 struct HomeItem: Hashable {
     let text: String
-    let subtitle: String? = "" 
+    let subtitle: String?
     let imageUrl: String
+    let id = UUID()
+    
+    init(text: String, imageUrl: String, subtitle: String? = "") {
+        self.text = text
+        self.imageUrl = imageUrl
+        self.subtitle = subtitle
+    }
 }
